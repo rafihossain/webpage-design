@@ -1,0 +1,253 @@
+*{margin:0;padding:0;outline:0}
+body{font-family:vardana; font-size:12px; line-height:15px; color:#000;
+background:url(image/rafi.png)repeat scroll 0 0 #fff;position:relative;
+}
+.size {
+	width:960px;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+.clear{overflow:hidden;}
+.headersection {
+	background-color: #B27B17;
+	color: #fff;
+}
+.logo {
+	float: left;
+	width: 500px;
+}
+.logo img {
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 70px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.logo h2 {
+	padding: 26px;
+	margin: 10px;
+	font-size: 25px;
+}
+.social {
+	float: right;
+	padding-top: 20px;
+	padding-right: 30px;
+}
+.social img {
+	width: 60px;
+}
+.social a {
+	font-size: 30px;
+	color: #fff;
+	background: #DEA743;
+	padding: 2px 6px;
+	border-radius: 5px;
+}
+.social a:hover{
+	background:#fff; color:#333;
+}
+.navsection {
+	background: #E6AF4B;
+	min-height: 36px;
+}
+.navsection ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.navsection ul li {
+	display: block;
+	float: left;
+	position: relative;
+	border-right: 2px solid #C58E2A;
+	border-left: 2px solid #F1BA56;
+}
+.navsection ul li:first-child{border-left: 0px solid #F1BA56;}
+.navsection ul li:second-child{border-right: 0px solid #C58E2A;}
+	
+.navsection ul li a {
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+	display: block;
+	transition:.99s;
+	-webkit-transition:.99s;
+	-moz-transition:.99s;
+	-o-transition:.99s;
+}
+.navsection ul li a:hover, #active {
+	background: #fff;
+	color: #4b3c3c;
+	transition:.99s;
+}
+.navsection ul li ul {
+	position: absolute;
+	right: -999999px;
+	z-index: 100;
+}
+.navsection ul li ul li {
+	background: #ddd;
+	width: 200px;
+	border-bottom: 1px solid #CB9459;
+	border-right: 0px solid #C58E2A;
+	border-left: 0px solid #F1BA56;
+}
+.navsection ul li ul li:last-child{border-bottom: 0px solid #CB9459;}
+.navsection ul li ul li a {background: #E6AF4B;
+}
+.navsection ul li:hover ul{right:0px;}
+
+.contentsection {
+	height: 850px;
+}
+.maincontent {
+	width: 630px;
+	background: #B6C3E7;
+	float: left;
+	margin: 15px 15px 15px 0;
+	border: 2px solid #bdaf73;
+}
+.post{
+
+}
+.post h2 {
+	padding: 10px;
+	border-bottom: 1px solid #2A2626;
+	margin: 16px;
+}
+.post img {
+	padding: 5px;
+	margin: 10px;
+	background: #fff;
+	border: 1px solid #383434;
+	width: 200px;
+	float: left;
+}
+.post p {
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+.readmore{
+	float: right;
+}
+.readmore a {
+	background: #2A2626;
+	color: #FFFFFF;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 5px;
+	margin: 5px;
+	display: block;
+	border: 1px solid #FFFFFF;
+}
+.item {
+	float: left;
+	width: 66%;
+	border: 2px solid #EEC288;
+	margin-top: 15px;
+	background: #C1C1C1;
+	height: 824px;
+	position:relative;
+}
+.item img {
+	width: 400px;
+    padding-left: 100px;
+    padding-top: 100px;
+    height: 250px;
+	
+}
+.shadow {
+	background: rgba(0,0,0,.3);
+	width: 400px;
+	margin: 10px;
+	padding: 10px;
+	background: #949090;
+	color: #fff;
+	height: 250%
+	position:absolute;
+	top:-100%;
+}
+.item:hover .shadow{top:0}
+.sidebar {
+	width: 287px;
+	background: #DFDFDF;
+	margin-top: 15px;
+	float: right;
+	padding: 10px;
+	border: 2px solid #ddd583;
+}
+.sidberheader{}
+.sidberheader h2 {
+	background: #2a2626;
+	padding: 15px;
+	color: #fff;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #6B5B5B;
+}
+.sidberheader p {
+	margin-bottom: 17px;
+}
+.footersection{
+	background-color: #958181;
+	color: #fff;
+	height: 80px;
+}
+.footersection {
+	background-color: #E6AF4B;
+	color: #fff;
+	height: 80px;
+	text-align: center;
+	padding-top: 35px;
+	font-size: 20px;
+}
+
+.footermenu ul{
+	padding: 0;margin: 0;list-style: none;
+	text-align: center;
+}
+.footermenu ul li {
+	display: inline-block;
+}
+.footermenu ul li a {
+	color: #6c5454;
+	font-size: 18px;
+}
+.icon {
+	position: fixed;
+	left: 0;
+	top: 100px;
+	width: 120px;
+}
+.icon img {
+	width: 80px;
+}
+.About {
+	float: left;
+	width: 66%;
+	border: 2px solid #EEC288;
+	margin-top: 15px;
+	background: #C1C1C1;
+}
+.About h2 {
+	padding: 15px;
+	margin: 20px;
+	border-bottom: 4px solid #DBDBDB;
+	font-size: 28px;
+}
+.About img {
+	width: 300px;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	color: #fff;
+}
+.About p {
+	font-family: vardana;
+	font-size: 20px;
+	line-height: 45px;
+	padding: 12px;
+}
